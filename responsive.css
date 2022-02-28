@@ -1,0 +1,229 @@
+@media screen and (max-width: 1200px) {
+  nav {
+    padding: 30px 50px;
+    /* justify-content: space-evenly; */
+  }
+
+  nav.sticky {
+    padding: 5px 50px;
+  }
+
+  nav ul li:nth-child(3) {
+    margin-right: 40px;
+  }
+
+  /* Header */
+  .content {
+    flex: wrap;
+    padding: 0 10px;
+  }
+  .content .imgBox {
+    flex: 50%;
+    text-align: center;
+  }
+  .content .imgBox img {
+    width: 70%;
+  }
+  .content .textBox {
+    flex: 50%;
+    order: 2;
+  }
+  .content .textBox h1 {
+    font-size: 30px;
+  }
+
+  .content .textBox p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    padding: 30px 50px;
+    /* justify-content: space-evenly; */
+  }
+
+  nav.sticky {
+    padding: 5px 50px;
+  }
+
+  nav ul li:nth-child(3) {
+    margin-right: 0px;
+  }
+
+  /* Header */
+  .content {
+    flex-direction: column;
+  }
+  .content {
+    flex: wrap;
+  }
+  .content .imgBox {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content .imgBox img {
+    width: 80%;
+  }
+
+  .content .textBox {
+    flex: 50%;
+    order: 2;
+    margin-top: 20px;
+  }
+  .content .textBox h1 {
+    font-size: 25px;
+  }
+
+  .content .textBox p {
+    font-size: 18px;
+  }
+
+  /* Fitur */
+  .fitur .cardBox {
+    width: 660px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 20px 20px;
+  }
+
+  nav.sticky {
+    padding: 5px 20px;
+  }
+
+  nav ul li {
+    margin: 0 0;
+  }
+  nav ul li:nth-child(3) {
+    margin-right: 0;
+  }
+
+  nav ul li a {
+    margin: 0 2px;
+    letter-spacing: 1px;
+  }
+
+  /* Header */
+  .content {
+    flex-direction: column;
+  }
+  .content {
+    flex: wrap;
+  }
+  .content .imgBox {
+    flex: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .imgBox img {
+    width: 80%;
+  }
+  .content .textBox {
+    flex: 40%;
+    order: 2;
+  }
+
+  .content .textBox h1 {
+    font-size: 25px;
+  }
+
+  .content .textBox p {
+    font-size: 16px;
+  }
+
+  /* Fitur */
+  .fitur .cardBox {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  nav {
+    padding: 5px 20px;
+  }
+
+  /* Menu slide */
+
+  nav .menu {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 50px);
+    top: 65px;
+    padding-top: 5px;
+    left: -100%;
+    transition: 0.5s;
+    height: 40vh;
+    background: var(--bg-color);
+  }
+
+  nav .menu.slide-menu {
+    left: 0;
+  }
+  nav .menu ul li:nth-child(3) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  nav .menu ul li:nth-child(5) {
+    margin-top: 5px;
+  }
+
+  nav .menu ul {
+    display: block;
+    text-align: center;
+  }
+
+  nav .menu ul {
+    margin-top: 10px;
+  }
+
+  nav .menu ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 7px 0;
+    margin: 2px 0;
+    border-radius: 20px;
+  }
+
+  nav .menu ul li a:hover {
+    color: var(--bg-color2);
+    background: var(--text-color);
+  }
+
+  nav ul li:nth-child(5) a:hover {
+    border-radius: 20px;
+    color: var(--text-color);
+    background: none;
+    border: var(--text-color) 2px solid;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* Header */
+  .content .textBox {
+    padding-left: 20px;
+    flex: 60%;
+  }
+
+  .content .textBox p {
+    font-size: 1rem;
+  }
+
+  .content .imgBox {
+    justify-content: center;
+    display: flex;
+  }
+
+  .content .imgBox img {
+    width: 70%;
+  }
+}
