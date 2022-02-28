@@ -214,8 +214,12 @@
     flex: 60%;
   }
 
+  .content .textBox h1{
+    font-size: 1.4rem;
+  }
+
   .content .textBox p {
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
   .content .imgBox {
@@ -225,5 +229,21 @@
 
   .content .imgBox img {
     width: 70%;
+  }
+
+  /* FItur */
+  .fitur .textBox{
+    padding: 0 15px;
+  }
+  .fitur .textBox h2 {
+    font-size: 1.4rem;
+  }
+
+  .fitur .textBox p{
+    font-size: .9rem;
+  }
+
+  .fitur .cardBox .textCard h2{
+    font-size: 1.1rem !important;
   }
 }
