@@ -35,6 +35,53 @@
   .content .textBox p {
     font-size: 18px;
   }
+
+  /* Tutorial */
+
+  .tutorial .textTutorial {
+    padding: 0 10px;
+  }
+
+  .tutorial .textTutorial .textJudul {
+    margin-bottom: 20px;
+  }
+
+  .tutorial .textTutorial .textJudul h2 {
+    font-size: 1.4rem;
+  }
+
+  .tutorial .textTutorial .textJudul p {
+    line-height: 22px;
+  }
+
+  .tutorial .textTutorial .langkahBox .textLangkah {
+    line-height: 22px;
+    margin: 10px 0;
+  }
+
+  .tutorial .textTutorial .langkahBox .textLangkah .imgLangkah img {
+    width: 50px;
+  }
+
+  .tutorial .textTutorial .langkahBox .textLangkah p {
+    margin-left: 25px;
+  }
+
+  .tutorial .videoTutorial {
+    padding: 0 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tutorial .videoTutorial .judulVideo p {
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+  }
+  .tutorial .videoTutorial .video {
+    width: 100%;
+    height: 80%;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -85,6 +132,40 @@
   /* Fitur */
   .fitur .cardBox {
     width: 660px;
+  }
+
+  /* Tutorial */
+
+  .tutorial {
+    flex-direction: column;
+  }
+
+  .tutorial .textTutorial {
+    padding: 0 50px;
+  }
+
+  .tutorial .textTutorial .textJudul {
+    margin-bottom: 10px;
+  }
+
+  .tutorial .textTutorial .langkahBox {
+    margin: 5px 0 50px 0;
+  }
+
+  .tutorial .textTutorial .langkahBox .textLangkah .imgLangkah img {
+    width: 50px;
+  }
+
+  .tutorial .videoTutorial {
+    padding: 10px 50px;
+  }
+
+  .tutorial .videoTutorial .judulVideo p {
+    margin-bottom: 25px;
+  }
+  .tutorial .videoTutorial .video {
+    width: 90%;
+    height: 300px;
   }
 }
 
@@ -142,6 +223,28 @@
   .fitur .cardBox {
     justify-content: center;
   }
+
+  /* Tutorial */
+
+  .tutorial .textTutorial {
+    padding: 0 0;
+  }
+
+  .tutorial .textTutorial .langkahBox .textLangkah .imgLangkah img {
+    width: 45px;
+  }
+
+  .tutorial .videoTutorial {
+    padding: 10px 0;
+  }
+
+  .tutorial .videoTutorial .judulVideo p {
+    margin-bottom: 20px;
+  }
+  .tutorial .videoTutorial .video {
+    width: 450px;
+    height: 270px;
+  }
 }
 
 @media screen and (max-width: 567px) {
@@ -155,11 +258,11 @@
     position: absolute;
     width: 100%;
     height: calc(100vh - 50px);
-    top: 65px;
+    top: 63.5px;
     padding-top: 5px;
     left: -100%;
     transition: 0.5s;
-    height: 40vh;
+    height: 270px;
     background: var(--bg-color);
   }
 
@@ -210,16 +313,15 @@
 
   /* Header */
   .content .textBox {
-    padding-left: 20px;
     flex: 60%;
   }
 
-  .content .textBox h1{
-    font-size: 1.4rem;
+  .content .textBox h1 {
+    font-size: 1.3rem;
   }
 
   .content .textBox p {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .content .imgBox {
@@ -232,18 +334,53 @@
   }
 
   /* FItur */
-  .fitur .textBox{
+  .fitur .textBox {
     padding: 0 15px;
   }
   .fitur .textBox h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
-  .fitur .textBox p{
-    font-size: .9rem;
+  .fitur .textBox p {
+    font-size: 0.9rem;
   }
 
-  .fitur .cardBox .textCard h2{
+  .fitur .cardBox .textCard h2 {
     font-size: 1.1rem !important;
+  }
+
+  .fitur .cardBox .textCard p {
+    line-height: 20px;
+  }
+
+  /* Tutorial */
+  .tutorial {
+    padding: 50px 0;
+  }
+
+  .tutorial .textTutorial {
+    margin: 20px;
+    padding: 0;
+  }
+
+  .tutorial .textTutorial .langkahBox {
+    margin: 0;
+  }
+
+  .tutorial .textTutorial .langkahBox .textLangkah .imgLangkah img {
+    width: 30px;
+  }
+
+  .tutorial .videoTutorial {
+    margin: 0 10px 30px 10px;
+  }
+
+  .tutorial .videoTutorial .judulVideo p {
+    margin-bottom: 20px;
+  }
+
+  .tutorial .videoTutorial .video {
+    width: 300px;
+    height: 150px;
   }
 }

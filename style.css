@@ -226,7 +226,7 @@ nav ul li a:hover {
   flex-wrap: wrap;
   justify-content: center;
   background: var(--bg-color3);
- padding-top: 50px;
+  padding: 50px 0;
 }
 .fitur .textBox {
   margin: 50px 0;
@@ -294,4 +294,72 @@ nav ul li a:hover {
   color: var(--bg-color2);
   font-weight: 700;
   font-size: 14px;
+}
+
+/* Tutorial */
+
+.tutorial {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 50px;
+}
+
+.tutorial .textTutorial {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  padding-left: 50px;
+}
+
+.tutorial .textTutorial .textJudul {
+  margin-bottom: 30px;
+}
+
+.tutorial .textTutorial .textJudul h2 {
+  margin-bottom: 10px;
+}
+
+.tutorial .textTutorial .textJudul p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.tutorial .textTutorial .textLangkah {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.9rem;
+  align-items: center;
+  margin: 5px;
+}
+
+.tutorial .textTutorial .langkahBox .textLangkah .imgLangkah img {
+  width: 60px;
+}
+
+.tutorial .textTutorial .langkahBox .textLangkah p {
+  margin-left: 30px;
+}
+
+.tutorial .videoTutorial {
+  flex: 50%;
+}
+
+.tutorial .videoTutorial {
+  padding: 0 50px;
+}
+
+.tutorial .videoTutorial .judulVideo p {
+  font-size: 0.8rem;
+  margin-bottom: 30px;
+}
+.tutorial .videoTutorial .video {
+  width: 95%;
+  height: 80%;
+}
+.tutorial .videoTutorial .video iframe {
+  border: var(--text-color) 3px solid;
+  border-radius: 15px;
 }
