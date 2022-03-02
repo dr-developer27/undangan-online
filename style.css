@@ -227,6 +227,8 @@ nav ul li a:hover {
   justify-content: center;
   background: var(--bg-color3);
   padding: 50px 0;
+  overflow: hidden;
+  letter-spacing: 1.3px;
 }
 .fitur .textBox {
   margin: 50px 0;
@@ -251,7 +253,7 @@ nav ul li a:hover {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 1050px;
+  max-width: 1050px;
 }
 
 .fitur .cardBox .card {
@@ -305,6 +307,7 @@ nav ul li a:hover {
   background: var(--bg-color);
   color: var(--text-color);
   padding: 50px;
+  letter-spacing: 1.3px;
 }
 
 .tutorial .textTutorial {
@@ -335,6 +338,12 @@ nav ul li a:hover {
   margin: 5px;
 }
 
+.tutorial .textTutorial .langkahBox a {
+  text-decoration: none;
+  color: var(--blue-color2);
+  font-weight: 600;
+}
+
 .tutorial .textTutorial .langkahBox .textLangkah .imgLangkah img {
   width: 60px;
 }
@@ -362,4 +371,76 @@ nav ul li a:hover {
 .tutorial .videoTutorial .video iframe {
   border: var(--text-color) 3px solid;
   border-radius: 15px;
+}
+
+/* Desain */
+
+.desain {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bg-color2);
+  padding: 50px 0;
+  color: var(--text-color);
+  letter-spacing: 1.3px;
+}
+
+.desain .judulDesain {
+  text-align: center;
+}
+
+.desain .judulDesain p {
+  padding: 0 10px;
+  line-height: 20px;
+  margin-top: 15px;
+}
+
+.desain .desainCard {
+  display: flex;
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0;
+  overflow-x: auto;
+  max-width: 1150px;
+}
+
+.desain .desainCard .desainImg {
+  margin: 0 10px;
+  min-width: 210px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.desain .desainCard .desainImg a {
+  border-radius: 7px;
+}
+
+.desain .desainCard img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.desain .desainCard a:hover {
+  box-shadow: -6px -6px 20px rgba(255, 255, 255, 1), 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.desain .desainKoleksi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.desain .desainKoleksi p a {
+  text-decoration: none;
+  padding: 10px 15px;
+  background: var(--text-color);
+  color: var(--bg-color);
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.desain .desainKoleksi p a:hover {
+  background: var(--bg-color);
+  color: var(--text-color);
 }

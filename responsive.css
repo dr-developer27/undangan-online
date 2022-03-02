@@ -82,6 +82,15 @@
     width: 100%;
     height: 80%;
   }
+
+  /* Desain */
+  .desain .desainCard {
+    width: 900px;
+  }
+
+  .desain .desainCard .desainImg {
+    min-width: 160px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -167,6 +176,15 @@
     width: 90%;
     height: 300px;
   }
+
+  /* Desain */
+  .desain .desainCard {
+    width: 700px;
+  }
+
+  .desain .desainCard .desainImg {
+    min-width: 190px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -244,6 +262,15 @@
   .tutorial .videoTutorial .video {
     width: 450px;
     height: 270px;
+  }
+
+  /* Desain */
+  .desain .desainCard {
+    width: 500px;
+  }
+
+  .desain .desainCard .desainImg {
+    min-width: 160px;
   }
 }
 
@@ -345,6 +372,32 @@
     font-size: 0.9rem;
   }
 
+  .fitur .cardBox {
+    justify-content: left;
+    padding: 0;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+
+  .fitur .cardBox .card {
+    min-width: 290px;
+  }
+
+  .fitur .cardBox::-webkit-scrollbar {
+    height: 0.9em;
+  }
+
+  .fitur .cardBox::-webkit-scrollbar-track {
+    background: var(--text-color);
+    border-radius: 100vh;
+    margin: 0 2em;
+  }
+  .fitur .cardBox::-webkit-scrollbar-thumb {
+    background: var(--blue-color2);
+    border: var(--text-color) 2px solid;
+    border-radius: 100vh;
+  }
+
   .fitur .cardBox .textCard h2 {
     font-size: 1.1rem !important;
   }
@@ -359,8 +412,16 @@
   }
 
   .tutorial .textTutorial {
-    margin: 20px;
+    margin: 15px;
     padding: 0;
+  }
+
+  .tutorial .textTutorial .textJudul h2 {
+    font-size: 1.4rem;
+  }
+
+  .tutorial .textTutorial .textJudul p {
+    font-size: 0.8rem;
   }
 
   .tutorial .textTutorial .langkahBox {
@@ -369,6 +430,10 @@
 
   .tutorial .textTutorial .langkahBox .textLangkah .imgLangkah img {
     width: 30px;
+  }
+
+  .tutorial .textTutorial .langkahBox .textLangkah p {
+    font-size: 0.8rem;
   }
 
   .tutorial .videoTutorial {
@@ -381,6 +446,27 @@
 
   .tutorial .videoTutorial .video {
     width: 300px;
-    height: 150px;
+    height: 170px;
+  }
+
+  /* Desain */
+
+  .desain .judulDesain h3 {
+    letter-spacing: 1.5px;
+  }
+  .desain .judulDesain p {
+    font-size: 0.8rem;
+  }
+  .desain .desainCard {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .desain .desainCard .desainImg {
+    min-width: 140px;
+  }
+
+  .desain .desainKoleksi p a {
+    font-size: 0.8rem;
   }
 }
