@@ -118,12 +118,12 @@ nav ul li a:hover {
 .menu-toggle {
   position: relative;
   display: none;
-  background: #fff;
+  background: var(--text-color);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-  border-radius: 50px;
+  border-radius: 4px;
   flex-direction: column;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -146,12 +146,12 @@ nav ul li a:hover {
 .menu-toggle span:nth-child(1) {
   transform: translateY(-8px);
   width: 10px;
-  left: 10px;
+  left: 5px;
 }
 .menu-toggle span:nth-child(2) {
   transform: translateY(8px);
   width: 15px;
-  left: 10px;
+  left: 5px;
 }
 
 .menu-toggle.active span:nth-child(1) {
@@ -228,7 +228,7 @@ nav ul li a:hover {
   background: var(--bg-color3);
   padding: 50px 0;
   overflow: hidden;
-  letter-spacing: 1.3px;
+  letter-spacing: 1.1px;
 }
 .fitur .textBox {
   margin: 50px 0;
@@ -245,7 +245,6 @@ nav ul li a:hover {
 
 .fitur .textBox p {
   margin-top: 20px;
-  font-weight: 600;
 }
 .fitur .cardBox {
   position: relative;
@@ -307,7 +306,7 @@ nav ul li a:hover {
   background: var(--bg-color);
   color: var(--text-color);
   padding: 50px;
-  letter-spacing: 1.3px;
+  letter-spacing: 1.1px;
 }
 
 .tutorial .textTutorial {
@@ -383,7 +382,7 @@ nav ul li a:hover {
   background: var(--bg-color2);
   padding: 50px 0;
   color: var(--text-color);
-  letter-spacing: 1.3px;
+  letter-spacing: 1.1px;
 }
 
 .desain .judulDesain {
@@ -444,3 +443,102 @@ nav ul li a:hover {
   background: var(--bg-color);
   color: var(--text-color);
 }
+
+/* Faq */
+ .faq {
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   background: var(--bg-color);
+   color: var(--text-color);
+   padding: 30px 10px;
+ }
+
+ .faq .faqJudul{
+   text-align: center;
+   font-weight: 600;
+   font-size: 1.5rem;
+   padding: 20px 0;
+ }
+
+ .faq .faqBox{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 20px 100px;
+ }
+
+ .faq .faqBox .faqCard{
+   width: 50%;
+   padding: 10px 10px;
+ }
+
+ .faq .faqBox .faqCard h3{
+   margin: 15px 0;
+   font-size: 1.5rem;
+   letter-spacing: 1px;
+ }
+
+ .faq .faqBox .faqCard p{
+   font-size: .9rem;
+   line-height: 25px;
+ }
+
+ /* Kontak */
+
+ .kontak{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   padding: 50px 100px;
+   background: var(--bg-color2);
+   color: var(--text-color);
+ }
+
+ .kontak .kontakJudul{
+   letter-spacing: 1px;
+   text-align: center;
+ }
+
+ .kontak .kontakIsi{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 20px 0;
+ }
+ 
+ .kontak .kontakIsi .infoKontak a{
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: var(--text-color);
+   flex-wrap: wrap;
+   margin: 20px 30px;
+ }
+
+ .kontak .kontakIsi .infoKontak .kontakImg{
+   display: flex;
+   justify-content: center;
+ }
+
+ .kontak .kontakIsi .infoKontak a .kontakImg Img{
+   height: 30px;
+   background: var(--text-color);
+   border-radius: 5px;
+ }
+
+ .kontak .kontakIsi .infoKontak a .kontakTeks{
+   margin-left: 10px;
+ }
+
+ footer{
+   background: var(--text-color);
+   color: var(--bg-color3);
+   width: 100%;
+   padding: 10px 0;
+   text-align: center;
+   font-weight: 600;
+
+   letter-spacing: 1px;
+   font-size: .9em;
+ }
