@@ -82,15 +82,11 @@ nav ul li a {
 }
 
 nav ul li a.active {
-  color: var(--blue-color2);
+  color: var(--blue-color);
   font-weight: 700;
 }
 
-nav ul li:nth-child(4) a {
-  padding: 8px 8px;
-  border-radius: 5px;
-  border: var(--text-color) 2px solid;
-}
+
 
 nav ul li:nth-child(5) a {
   color: var(--bg-color2);
@@ -104,13 +100,13 @@ nav ul li:nth-child(5) a {
 nav ul li:nth-child(5) a:hover {
   border-radius: 5px;
   background: none;
-  color: var(--text-color);
-  border: var(--text-color) 2px solid;
+  color: var(--blue-color);
+  border: var(--blue-color) 2px solid;
 }
 
 nav ul li a:hover {
-  color: var(--bg-color2);
-  background: var(--text-color);
+  color: var(--blue-color);
+  text-decoration: underline;
   font-weight: bold;
 }
 
@@ -339,8 +335,12 @@ nav ul li a:hover {
 
 .tutorial .textTutorial .langkahBox a {
   text-decoration: none;
-  color: var(--blue-color2);
+  color: var(--blue-color);
   font-weight: 600;
+}
+
+.tutorial .textTutorial .langkahBox a:hover{
+  text-decoration: underline;
 }
 
 .tutorial .textTutorial .langkahBox .textLangkah .imgLangkah img {

@@ -117,6 +117,12 @@
   .kontak .kontakIsi .infoKontak a{
     margin: 20px 0;
   }
+
+  /* Halaman desain */
+  .hd .hdBox{
+    padding: 0 10px;
+    max-width: 992px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -237,6 +243,26 @@
   .kontak .kontakIsi .infoKontak p{
     font-size: .9em;
   }
+
+  /* Halaman Desain */
+  .hd{
+    padding-top: 150px;
+  }
+  .hd .hdJudul{
+    text-align: center;
+  }
+
+  .hd .hdJudul h1{
+    font-size: 1.6em;
+  }
+
+  .hd .hdJudul p{
+    font-size: .95em;
+  }
+
+  .hd .hdBox .hdImg{
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -352,6 +378,22 @@
 
   .kontak .kontakIsi .infoKontak{
     margin: 0 25px;
+  }
+
+  /* Halaman Desain */
+  .hd{
+    padding-top: 130px;
+  }
+
+  .hd .hdJudul{
+    padding: 0 20px;
+  }
+  .hd .hdJudul h1{
+    font-size: 1.3em;
+  }
+
+  .hd .hdJudul p{
+    font-size: .8em;
   }
 }
 
@@ -620,5 +662,21 @@
 
   footer{
     font-size: .7em;
+  }
+
+  /* Halaman Desain */
+
+  .hd {
+    background: chocolate;
+    padding-top: 90px;
+  }
+
+  .hd .hdJudul h1{
+    font-size: 1.1em;
+  }
+
+  .hd .hdBox .hdImg{
+    width: 125px;
+    margin: 10px;
   }
 }

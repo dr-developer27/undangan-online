@@ -1,0 +1,35 @@
+.hd{
+  background: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  align-items: center;
+}
+
+.hd .hdJudul{
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color);
+}
+
+.hd .hdJudul p{
+  margin: 20px 0;
+}
+
+.hd .hdBox{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.hd .hdBox .hdImg{
+  margin: 15px;
+  width:22%;
+}
+
+.hd .hdBox .hdImg a img{
+  border-radius: 10px;
+  width: 100%;
+}
