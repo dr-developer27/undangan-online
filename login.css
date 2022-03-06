@@ -1,0 +1,155 @@
+.containerLr{
+  background: var(--bg-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lr {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  margin: 20px;
+  margin-top: 120px;
+}
+
+.containerLr.active{
+  background:#03a9f4;
+}
+
+.lr .login{
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.15);
+  color: var(--text-color);
+}
+
+.lr .login .box{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lr .login .box h2{
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.lr .login .box button{
+  cursor: pointer;
+  padding: 10px 20px;
+  background: var(--text-color);
+  color: var(--bg-color);
+  font-size: 16px;
+  font-weight: 550;
+  border: none;
+}
+
+.lr .login .box .signinBtn{
+  color: #03a9f4;
+}
+
+.lr .formBx{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: var(--text-color);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.25);
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.lr .formBx.active{
+  left: 50%;
+}
+
+.formBx .form{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 50px;
+  transition: 0.5s;
+}
+
+.formBx .signinForm{
+  transition-delay: 0.25s;
+}
+
+.formBx.active .signinForm{
+  left: -100%;
+  transition-delay: 0s;
+}
+
+.formBx .signupForm{
+  left: 100%;
+  transition-delay: 0s;
+  color: var;
+}
+
+.formBx.active .signupForm{
+  left: 0;
+  transition-delay: 0.25s;
+}
+
+.formBx .form form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formBx .form form h3{
+  font-size: 1.5em;
+  color: var(--bg-color);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.formBx .form form input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+  border: 1px var(--bg-color) solid;
+}
+
+.formBx .form form input[type="submit"]{
+  background: var(--bg-color);
+  border: none;
+  color: var(--text-color);
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.formBx.active .signupForm h3{
+  color: var(--blue-color3);
+}
+
+.formBx.active .signupForm input{
+  border: 1px var(--blue-color3) solid;
+}
+
+.formBx.active .signupForm input[type="submit"]{
+  background: #03a9f4;
+}
+
+.formBx .form form .forget{
+  color: var(--bg-color);
+}

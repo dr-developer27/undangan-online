@@ -1,3 +1,4 @@
+
 window.addEventListener("scroll", function () {
   let nav = document.querySelector("nav");
   nav.classList.toggle("sticky", window.scrollY > 0);
@@ -29,3 +30,4 @@ const nav = document.querySelector("nav .menu");
 menuToggle.addEventListener("click", function () {
   nav.classList.toggle("slide");
 });
+
