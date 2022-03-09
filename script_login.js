@@ -13,3 +13,13 @@ const containerLr= document.querySelector('.containerLr');
     containerLr.classList.remove('active');
     containerLr.classList.remove('#daftar');
   };
+
+  
+  function checkAll(){
+    let checkBox = document.getElementsByName('checkBox');
+    let checkBoxLeng = checkBox.length;
+    for( let i = 0; i < checkBoxLeng; i++){
+      checkBox[i].checked = true;
+    }
+  }
+ 

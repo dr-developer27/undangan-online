@@ -130,6 +130,30 @@
   border: 1px var(--bg-color) solid;
 }
 
+.formBx .form form .formCheckbox{
+  display: grid;
+  grid-template-columns: 25px auto;
+  font-size: .8em;
+}
+
+.formBx .form form .formCheckbox input[type="checkbox"]{
+  display:block;
+  font-size: 50px;
+  width: 17px;
+  height: 17px;
+}
+
+.formBx .form form .formCheckbox a{
+  text-decoration: none;
+  color: #03a9f4;
+  font-weight: 600;
+  letter-spacing: .8px;
+}
+
+.formBx .form form .formCheckbox a:hover{
+  text-decoration: underline;
+}
+
 .formBx .form form input[type="submit"]{
   background: var(--bg-color);
   border: none;
@@ -152,4 +176,91 @@
 
 .formBx .form form .forget{
   color: var(--bg-color);
+  text-decoration: none;
 }
+
+.formBx .form form .forget:hover{
+  text-decoration: underline;
+}
+
+/* Overlay */
+.overlay{
+  width: 0;
+  height: 0;
+  z-index: 1002;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.overlay:target{
+  width: auto;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.overlay .overlayBox{
+  width: 600px;
+  background: var(--text-color);
+  padding: 40px 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.overlay .overlayBox .overlayJudul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.overlay .overlayBox .overlayJudul a{
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  width:30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  color: var(--text-color);
+  background: #03a9f4;
+}
+
+.overlay .overlayBox .overlayIsi{
+  margin: 30px 0;
+}
+
+.overlay .overlayBox .overlayIsi ul{
+  margin-left: 40px;
+}
+
+.overlay .overlayBox .overlayIsi ul li{
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+.overlay .overlayBox .overlayBtn{
+  display: flex;
+  justify-content: center;
+}
+
+.overlay .overlayBox .overlayBtn input[type="button"]{
+  text-decoration: none;
+  background: #03a9f4;
+  color: var(--text-color);
+  font-size: 1.1em;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
