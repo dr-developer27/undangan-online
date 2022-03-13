@@ -92,6 +92,36 @@
   transition-delay: 0.25s;
 }
 
+
+.formBx .signinForm.active{
+  left: -100%;
+}
+
+.formBx .forgetForm{
+  display: none;
+  left: 100%;
+  background: var(--text-color);
+}
+
+.formBx .forgetForm.active{
+  display: block;
+  left: 0%;
+}
+
+.formBx.active .forgetForm{
+  left: -100%;
+  transition-delay: 0s;
+}
+
+.formBx .forgetForm form p{
+  font-size: .9em;
+  margin-bottom: 15px;
+}
+
+.formBx .form.forgetForm form input[type="submit"]{
+  max-width: 200px;
+}
+
 .formBx.active .signinForm{
   left: -100%;
   transition-delay: 0s;
@@ -160,6 +190,7 @@
   color: var(--text-color);
   max-width: 100px;
   cursor: pointer;
+  border-radius: 3px;
 }
 
 .formBx.active .signupForm h3{
@@ -174,12 +205,12 @@
   background: #03a9f4;
 }
 
-.formBx .form form .forget{
+.formBx .form form a{
   color: var(--bg-color);
   text-decoration: none;
 }
 
-.formBx .form form .forget:hover{
+.formBx .form form a:hover{
   text-decoration: underline;
 }
 

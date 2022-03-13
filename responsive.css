@@ -89,41 +89,40 @@
   }
 
   /* Faq */
-  .faq .faqJudul{
+  .faq .faqJudul {
     font-size: 1.3em;
   }
   .desain .desainCard .desainImg {
     min-width: 160px;
   }
 
-  .faq{
+  .faq {
     padding: 30px 0;
   }
 
-  .faq .faqBox{
+  .faq .faqBox {
     padding: 20px 50px;
   }
 
-  .faq .faqBox .faqCard{
+  .faq .faqBox .faqCard {
     padding: 20px 20px;
   }
 
-  .faq .faqBox .faqCard h3{
+  .faq .faqBox .faqCard h3 {
     font-size: 1.2em;
   }
 
   /* Kontak */
 
-  .kontak .kontakIsi .infoKontak a{
+  .kontak .kontakIsi .infoKontak a {
     margin: 20px 0;
   }
 
   /* Halaman desain */
-  .hd .hdBox{
+  .hd .hdBox {
     padding: 0 10px;
     max-width: 992px;
   }
-
 }
 
 @media screen and (max-width: 991px) {
@@ -221,54 +220,57 @@
 
   /* Faq */
 
-  .faq .faqBox{
-    padding: 0 ;
+  .faq .faqBox {
+    padding: 0;
     margin: 10px 30px;
   }
 
-  .faq .faqBox .faqCard{
+  .faq .faqBox .faqCard {
     padding: 20px 20px;
   }
 
   /* Kontak */
-  .kontak{
+  .kontak {
     padding: 50px 0;
   }
 
-  .kontak .kontakIsi{
+  .kontak .kontakIsi {
     position: relative;
     width: 100%;
     padding: 0 10px;
   }
 
-  .kontak .kontakIsi .infoKontak p{
-    font-size: .9em;
+  .kontak .kontakIsi .infoKontak p {
+    font-size: 0.9em;
   }
 
   /* Halaman Desain */
-  .hd{
+  .hd {
     padding-top: 150px;
   }
-  .hd .hdJudul{
+  .hd .hdJudul {
     text-align: center;
   }
 
-  .hd .hdJudul h1{
+  .hd .hdJudul h1 {
     font-size: 1.6em;
   }
 
-  .hd .hdJudul p{
-    font-size: .95em;
+  .hd .hdJudul p {
+    font-size: 0.95em;
   }
 
-  .hd .hdBox .hdImg{
-    width: 200px;
+  .hd .hdBox {
+    grid-template-columns: auto auto auto;
+  }
+
+  .hd .hdBox .hdImg {
+    margin: 10px;
   }
 
   /* Halaman Login */
 
-
-  .lr{
+  .lr {
     max-width: 400px;
     height: 500px;
     display: flex;
@@ -276,42 +278,56 @@
     align-items: center;
   }
 
-  .lr .login{
+  .lr .login {
     top: 0;
     height: 100%;
   }
 
-  .lr .formBx{
+  .lr .formBx {
     width: 100%;
     height: 400px;
     top: 0;
     box-shadow: none;
   }
 
-  .lr .login .box{
+  .lr .login .box {
     position: absolute;
     width: 100%;
     height: 100px;
     bottom: 0;
   }
-  
-  .lr .login .box.signin{
+
+  .lr .login .box.signin {
     top: 0;
   }
 
-  .lr .formBx.active{
+  .lr .formBx.active {
     left: 0;
     top: 100px;
   }
 
-   /* Overlay */
+  /* Overlay */
 
-  .overlay .overlayBox{
+  .overlay .overlayBox {
     width: 550px;
   }
 
-  .overlay .overlayBox .overlayIsi ul{
+  .overlay .overlayBox .overlayIsi ul {
     margin-left: 30px;
+  }
+
+  /* Portofolio */
+  .porto .portoBox {
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+  }
+
+  .porto .portoBox .portoCard {
+    padding: 10px;
+  }
+
+  .porto .portoBox .portoCard a img {
+    min-width: 210px;
   }
 }
 
@@ -403,66 +419,83 @@
 
   /* Faq */
 
-  .faq .faqJudul{
+  .faq .faqJudul {
     font-size: 1.3em;
   }
 
-  .faq .faqBox{
+  .faq .faqBox {
     margin: 10px;
   }
 
-  .faq .faqBox .faqCard{
+  .faq .faqBox .faqCard {
     width: 100%;
     margin: 0 10px;
   }
 
   /* Kontak */
-  .kontak{
+  .kontak {
     align-items: center;
   }
 
-  .kontak .kontakIsi{
+  .kontak .kontakIsi {
     justify-content: center;
     width: 600px;
   }
 
-  .kontak .kontakIsi .infoKontak{
+  .kontak .kontakIsi .infoKontak {
     margin: 0 25px;
   }
 
   /* Halaman Desain */
-  .hd{
+  .hd {
     padding-top: 130px;
   }
 
-  .hd .hdJudul{
+  .hd .hdJudul {
     padding: 0 20px;
   }
-  .hd .hdJudul h1{
+  .hd .hdJudul h1 {
     font-size: 1.3em;
   }
 
-  .hd .hdJudul p{
-    font-size: .8em;
+  .hd .hdJudul p {
+    font-size: 0.8em;
   }
 
-  
   /* Overlay */
-  
-  .overlay .overlayBox{
+
+  .overlay .overlayBox {
     width: 70%;
   }
 
-  .overlay .overlayBox .overlayJudul{
-    font-size: .9em;
+  .overlay .overlayBox .overlayJudul {
+    font-size: 0.9em;
   }
 
-  .overlay .overlayBox .overlayIsi{
-    font-size: .85em;
+  .overlay .overlayBox .overlayIsi {
+    font-size: 0.85em;
   }
 
-  .overlay .overlayBox .overlayIsi ul{
+  .overlay .overlayBox .overlayIsi ul {
     margin-left: 20px;
+  }
+
+  /* Portofolio */
+  .porto {
+    padding-top: 130px;
+  }
+
+  .porto .portoJudul {
+    width: 90%;
+  }
+
+  .porto .portoJudul p {
+    margin: 10px 0;
+  }
+
+  .porto .portoBox {
+    grid-template-columns: auto auto;
+    padding: 5px;
   }
 }
 
@@ -471,7 +504,7 @@
     padding: 5px 20px;
   }
 
-  nav .logo{
+  nav .logo {
     font-size: 1.3em;
   }
   /* Menu slide */
@@ -497,7 +530,7 @@
     margin-bottom: 30px;
   }
 
-  nav .menu ul li:nth-child(5) {
+  nav .menu ul li:nth-child(4) {
     margin-top: 5px;
   }
 
@@ -516,7 +549,7 @@
     padding: 7px 0;
     margin: 2px 0;
     border-radius: 20px;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   nav .menu ul li a:hover {
@@ -524,10 +557,11 @@
     background: var(--text-color);
   }
 
-  nav ul li:nth-child(5) a:hover {
+  nav ul li:nth-child(4) a:hover {
     border-radius: 20px;
     color: var(--text-color);
     background: none;
+    text-decoration: none;
     border: var(--text-color) 2px solid;
   }
 
@@ -625,7 +659,7 @@
     margin: 0;
   }
 
-  .tutorial .textTutorial .langkahBox .textLangkah{
+  .tutorial .textTutorial .langkahBox .textLangkah {
     margin: 20px 0;
     line-height: 20px;
   }
@@ -678,63 +712,63 @@
 
   /* Faq */
 
-  .faq .faqJudul{
+  .faq .faqJudul {
     font-size: 1.2em;
   }
 
-  .faq .faqBox{
+  .faq .faqBox {
     margin: 0;
   }
 
-  .faq .faqBox .faqCard{
+  .faq .faqBox .faqCard {
     width: 100%;
     margin: 0;
     letter-spacing: 1px;
   }
 
-  .faq .faqBox .faqCard h3{
+  .faq .faqBox .faqCard h3 {
     font-size: 1em;
     letter-spacing: 1.5px;
   }
-  .faq .faqBox .faqCard p{
-    font-size: .8em;
+  .faq .faqBox .faqCard p {
+    font-size: 0.8em;
   }
 
   /* Kontak */
-  .kontak{
+  .kontak {
     /* background: lightcoral; */
     align-items: flex-start;
   }
 
-  .kontak .kontakJudul{
+  .kontak .kontakJudul {
     width: 100%;
   }
 
-  .kontak .kontakIsi{
+  .kontak .kontakIsi {
     justify-content: left;
     width: 320px;
   }
-  
-  .kontak .kontakIsi .infoKontak a{
+
+  .kontak .kontakIsi .infoKontak a {
     margin: 10px 0;
   }
 
-  .kontak .kontakIsi .infoKontak a .kontakImg{
+  .kontak .kontakIsi .infoKontak a .kontakImg {
     width: 20px;
   }
-  .kontak .kontakIsi .infoKontak a .kontakImg img{
+  .kontak .kontakIsi .infoKontak a .kontakImg img {
     width: 100%;
     height: auto;
   }
 
-  .kontak .kontakIsi .infoKontak a .kontakTeks{
-    font-size: .9em;
+  .kontak .kontakIsi .infoKontak a .kontakTeks {
+    font-size: 0.9em;
   }
 
   /* Footer */
 
-  footer{
-    font-size: .7em;
+  footer {
+    font-size: 0.7em;
   }
 
   /* Halaman Desain */
@@ -744,49 +778,48 @@
     overflow: hidden;
   }
 
-  .hd .hdJudul h1{
+  .hd .hdJudul h1 {
     font-size: 1.1em;
   }
 
-  .hd .hdBox{
+  .hd .hdBox {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
   }
 
-  .hd .hdBox .hdImg{
+  .hd .hdBox .hdImg {
     width: 90%;
     margin: 5px;
   }
 
   /* Halaman Login */
-  .containerLr{
+  .containerLr {
     min-height: 600px;
   }
-  .lr{
+  .lr {
     height: 500px;
   }
 
-  .lr .login{
+  .lr .login {
     top: 0;
     height: 100%;
   }
 
-  .lr .login .box button{
+  .lr .login .box button {
     padding: 5px 10px;
   }
 
-  .lr .formBx{
+  .lr .formBx {
     height: 410px;
   }
 
-  .lr .login .box h2{
+  .lr .login .box h2 {
     font-size: 1em;
     margin-bottom: 5px;
   }
-  
-  
+
   /* Overlay */
-  .overlay .overlayBox{
+  .overlay .overlayBox {
     width: 100%;
     overflow-y: auto;
     border-radius: 0px;
@@ -795,15 +828,75 @@
     margin: auto 0;
   }
 
-  .overlay:target{
+  .overlay:target {
     align-items: flex-start;
   }
 
-  .overlay .overlayBox .overlayJudul a{
+  .overlay .overlayBox .overlayJudul a {
     font-size: 1.2em;
   }
+
+  /* Portofolio */
+
+  .porto {
+    padding-top: 70px;
+  }
+
+  .porto .portoJudul h1 {
+    font-size: 1.3em;
+  }
+
+  .porto .portoJudul p {
+    font-size: 0.8em;
+  }
+
+  .porto .filter {
+    /* background: yellow; */
+    padding: 0 10px 10px 10px;
+    flex-direction: column;
+  }
+
+  .porto .filter .filterBox {
+    font-size: 0.8em;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .porto .filter .filterBox select {
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  .porto .filter .filterBox option {
+    font-size: 0.7em;
+  }
+
+  .porto .portoBox {
+    padding: 3px;
+    width: 100%;
+  }
+
+  .porto .portoBox .portoCard {
+    padding: 4px;
+  }
+
+  .porto .portoBox .portoCard a img {
+    min-width: 137px;
+  }
+
+  .porto .portoBox .portoCard a:last-child {
+    font-size: 0.6em;
+    margin: 5px;
+  }
+
+  .portoPagination {
+    font-size: 0.7em;
+  }
+
+  .portoPagination ul li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+  }
 }
-
-
-
-

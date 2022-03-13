@@ -1,82 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- my css -->
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="Desain.css" />
-  <link rel="stylesheet" href="login.css">
-  <link rel="stylesheet" href="responsive.css" />
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Desain.css" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="responsive.css" />
 
-  <title>Login</title>
-</head>
-<body>
-  
-<!-- navbar -->
-<nav>
-  <a href="#" class="logo">Logo</a>
-  <div class="menu">
-    <ul class="list">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="desain.html" >Desain</a></li>
-      <li><a href="#">Portofolio</a></li>
-    </ul>
-  </div>
-
-  <div class="menu-toggle">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</nav>
-
-<!-- Header -->
-<div class="containerLr active">
-
-  <div class="lr">
-    <div class="login">
-      <div class="box signin">
-        <h2>Sudah memiliki akun?</h2>
-        <button class="signinBtn">Login di sini</button>
-      </div>
-      <div class="box signup">
-        <h2>Belum memiliki akun?</h2>
-        <button class="signupBtn">Daftar sekarang</button>
-      </div>
-    </div>
-    <div class="formBx active">
-      <div class="form signinForm">
-        <form>
-          <h3>Sign In</h3>
-          <input type="text" placeholder="Username">
-          <input type="password" placeholder="Password">
-          <input type="submit" value="login">
-          <a href="#" class="forget">Forget Password</a>
-        </form>
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <a href="#" class="logo">Logo</a>
+      <div class="menu">
+        <ul class="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="desain.html">Desain</a></li>
+          <li><a href="portofolio.html">Portofolio</a></li>
+        </ul>
       </div>
 
-      <div class="form signupForm">
-        <form>
-          <h3>Sign Up</h3>
-          <input type="text" placeholder="Username">
-          <input type="text" placeholder="Email Address">
-          <input type="password" placeholder="Password">
-          <input type="password" placeholder="Confirm Password">
-          <div class="formCheckbox">
-            <input type="checkbox" name="checkBox">
-            <p>Saya menyetujui <a href="#syarat ">syarat penggunaan</a></p>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="containerLr active">
+      <div class="lr">
+        <div class="login">
+          <div class="box signin">
+            <h2>Sudah memiliki akun?</h2>
+            <button class="signinBtn">Login di sini</button>
           </div>
-          <input type="submit" value="Daftar">
-        </form>
+          <div class="box signup">
+            <h2>Belum memiliki akun?</h2>
+            <button class="signupBtn">Daftar sekarang</button>
+          </div>
+        </div>
+        <div class="formBx active">
+          <div class="form signinForm">
+            <form>
+              <h3>Sign In</h3>
+              <input type="text" placeholder="Username" />
+              <input type="password" placeholder="Password" />
+              <input type="submit" value="login" />
+              <a href="#" onclick="forget()" class="forget">Forget Password</a>
+            </form>
+          </div>
+
+          <div class="form forgetForm">
+            <form>
+              <h3>Forget Password</h3>
+              <p>Masukkan email Anda dan kami akan mengirimkan link untuk kembali ke akun Anda.</p>
+              <input type="text" placeholder="Email Address" />
+              <input type="submit" onclick="back()" value="Kirim Forget Password" />
+              <a href="#" onclick="back()">Back to login</a>
+            </form>
+          </div>
+
+          <div class="form signupForm">
+            <form>
+              <h3>Sign Up</h3>
+              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Email Address" />
+              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Confirm Password" />
+              <div class="formCheckbox">
+                <input type="checkbox" name="checkBox" />
+                <p>Saya menyetujui <a href="#syarat ">syarat penggunaan</a></p>
+              </div>
+              <input type="submit" value="Daftar" />
+            </form>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- End Header -->
+    <!-- End Header -->
 
     <!-- Overlay -->
 
@@ -96,14 +104,13 @@
           </ul>
         </div>
         <div class="overlayBtn">
-          <a href="#"><input type="button" onclick="checkAll()" value="syarat penggunaan"></a>
-          
+          <a href="#"><input type="button" onclick="checkAll()" value="syarat penggunaan" /></a>
         </div>
       </div>
     </div>
 
     <!-- End overlay -->
-<script src="script.js"></script>
-<script src="script_login.js"></script>
-</body>
+    <script src="script.js"></script>
+    <script src="script_login.js"></script>
+  </body>
 </html>
