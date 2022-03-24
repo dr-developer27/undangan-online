@@ -1,0 +1,677 @@
+@media screen and (max-width: 1200px) {
+  /* Cover */
+
+
+  #cover h2 {
+    font-size: 3rem !important;
+  }
+
+  #cover p {
+    font-size: 3.5rem !important;
+  }
+
+  #cover h1 {
+    font-size: 5rem !important;
+  }
+
+  #cover button {
+    font-size: 2rem !important;
+  }
+
+  /* End cover */
+
+  /* Hero */
+
+  #hero h2 {
+    font-size: 2rem !important;
+  }
+
+  #hero h1 {
+    font-size: 5rem !important;
+  }
+
+  #hero hr {
+    width: 60%;
+    opacity: 1;
+    border: 2px solid var(--bgColor);
+  }
+
+  #hero h3 {
+    font-size: 1.8rem !important;
+    margin-bottom: 50px;
+  }
+
+  /* End hero */
+
+  .satu svg {
+    margin-top: -150px;
+  }
+
+  /* Profil */
+
+  #profil .ayat img {
+    width: 17%;
+  }
+
+  #profil .ayat p {
+    font-size: 1.8rem !important;
+  }
+
+  #profil .ayat h3 {
+    font-size: 2rem !important;
+  }
+
+  #profil .pengantin h2 {
+    font-size: 2.9rem !important;
+  }
+
+  #profil .pengantin p {
+    font-size: 1.4rem !important;
+  }
+
+  #profil .pengantin a {
+    font-size: 2rem !important;
+  }
+
+  #profil .pengantin img {
+    width: 80%;
+  }
+
+  /* End profil */
+
+  .dua svg {
+    margin-bottom: -100px !important;
+    opacity: 1 !important;
+  }
+
+  /* Jadawal */
+
+  #jadwal h1 {
+    font-size: 4.5rem !important;
+    font-weight: bold;
+  }
+
+  #jadwal h3 {
+    font-size: 1.7rem !important;
+  }
+
+  #jadwal button {
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+  }
+
+  /* End jadwal */
+
+  /* Timer */
+
+  #time svg {
+    margin-top: -140px;
+    opacity: 1 !important;
+  }
+
+  #time h1 {
+    font-size: 5rem !important;
+    margin-top: 50px;
+  }
+
+  #time .countdown {
+    font-size: 1.4rem;
+  }
+
+  /* End timer */
+
+  /* Protokol */
+
+  #protokol h1 {
+    font-size: 3.3rem !important;
+  }
+
+  #protokol h3 {
+    font-size: 1.7rem !important;
+  }
+
+  #protokol svg {
+    width: 40%;
+  }
+
+  #protokol p {
+    font-size: 1.2rem !important;
+  }
+
+  /* End protokol */
+
+  /* Gift */
+
+  #gift img {
+    width: 10% !important;
+  }
+
+  #gift h1 {
+    font-size: 3.3rem !important;
+  }
+
+  #gift h2 {
+    font-size: 1.8rem !important;
+  }
+
+  #gift svg {
+    width: 40%;
+  }
+
+  #gift .overlay .alamatPengiriman img {
+    width: 60% !important;
+  }
+
+  #gift .akhirGift {
+    font-size: 3.2rem !important;
+  }
+
+  /* End gift */
+
+  /* Footer */
+
+  footer h2 {
+    font-size: 0.9rem !important;
+  }
+
+  /* End footer */
+}
+
+@media screen and (max-width: 768px) {
+  /* Profil */
+
+  #profil .ayat img {
+    width: 15% !important;
+  }
+
+  #profil .ayat p {
+    font-size: 1.7rem !important;
+  }
+
+  #profil .ayat h3 {
+    font-size: 2rem !important;
+  }
+
+  #profil .pengantin h2 {
+    font-size: 2.7rem !important;
+  }
+
+  #profil .pengantin p {
+    font-size: 1.3rem !important;
+  }
+
+  #profil .pengantin a {
+    font-size: 2rem;
+  }
+
+  #profil .pengantin img {
+    width: 65%;
+  }
+
+  /* End profil */
+
+  /* Jadwal */
+
+  #jadwal h1 {
+    font-size: 5rem !important;
+  }
+
+  #jadwal h3 {
+    font-size: 1.7rem !important;
+  }
+
+  #jadwal button {
+    font-size: 1.7rem !important;
+  }
+
+  /* End jadwal */
+
+  /* Timer */
+
+  #time h1 {
+    font-family: Ephesis, sans-serif;
+    font-weight: bold;
+    font-size: 5rem !important;
+  }
+
+  #time .countdown {
+    font-size: 1.5rem !important;
+  }
+
+  /* End timer */
+
+  /* Protokol */
+
+  #protokol h1 {
+    font-size: 3rem !important;
+  }
+
+  #protokol h3 {
+    font-size: 1.5rem !important;
+  }
+
+  #protokol svg {
+    width: 50%;
+  }
+
+  #protokol p {
+    font-size: 1rem;
+  }
+
+  /* End protokol */
+
+  /* Gift */
+
+  #gift img {
+    width: 10%;
+  }
+
+  #gift h1 {
+    font-size: 2.8rem !important;
+  }
+
+  #gift h2 {
+    font-size: 1.6rem !important;
+  }
+
+  #gift svg {
+    width: 40%;
+  }
+
+  #gift .overlay .card h2 {
+    font-size: 2rem !important;
+    margin-bottom: 40px;
+  }
+
+  #gift .overlay p {
+    font-size: 1.5rem !important;
+    margin-bottom: 40px;
+  }
+
+  #gift .overlay .alamatPengiriman img {
+    width: 40%;
+  }
+
+  #gift .akhirGift {
+    font-size: 3rem !important;
+  }
+
+  /* End gift */
+
+  /* Footer */
+
+  footer h2 {
+    font-size: 0.9rem !important;
+  }
+
+  /* End footer */
+}
+
+@media screen and (max-width: 567px) {
+  /* Cover */
+
+  #cover h2 {
+    font-size: 1.9rem !important;
+  }
+
+  #cover p {
+    font-size: 2.1rem !important;
+  }
+
+  #cover h1 {
+    font-size: 4rem !important;
+  }
+
+  #cover button {
+    font-size: 1.2rem !important;
+  }
+
+  /* End cover */
+
+  /* Hero */
+
+  #hero h2 {
+    font-size: 1.3rem !important;
+  }
+
+  #hero h1 {
+    font-size: 3rem !important;
+  }
+
+  #hero hr {
+    width: 75%;
+    opacity: 1;
+  }
+
+  #hero h3 {
+    font-size: 1.2rem !important;
+  }
+
+  /* End hero */
+
+  .satu svg {
+    margin-top: -90px;
+    opacity: 1 !important;
+  }
+
+  /* Profile */
+
+  #profil .ayat img {
+    width: 20%;
+  }
+
+  #profil .ayat p {
+    font-size: 1.2rem !important;
+  }
+
+  #profil .ayat h3 {
+    font-size: 1.3rem !important;
+  }
+
+  hr {
+    text-align: center;
+    width: 100%;
+  }
+
+  #profil .pengantin h2 {
+    font-size: 1.7rem !important;
+  }
+
+  #profil .pengantin p {
+    font-size: 0.9rem !important;
+  }
+
+  #profil .pengantin a {
+    font-size: 1.1rem !important;
+  }
+
+  #profil .pengantin img {
+    width: 90% !important;
+  }
+
+  /* End profile */
+
+  .dua svg {
+    margin-bottom: -90px;
+    opacity: 1 !important;
+  }
+
+  /* Jadwal */
+
+  #jadwal h1 {
+    font-size: 3rem !important;
+    font-weight: bold;
+  }
+
+  #jadwal h3 {
+    font-size: 1.1rem !important;
+  }
+
+  #jadwal button {
+    font-size: 1.1rem !important;
+  }
+
+  /* End Jadwal */
+
+  /* Time */
+
+  #time svg {
+    margin-top: -90px;
+  }
+
+  #time h1 {
+    font-family: Ephesis, sans-serif;
+    font-weight: bold;
+    font-size: 2.9rem !important;
+  }
+
+  #time .countdown {
+    font-size: 0.9rem !important;
+  }
+
+  /* End time */
+
+  /* Protokol */
+
+  #protokol h1 {
+    font-size: 1.8rem !important;
+  }
+
+  #protokol h3 {
+    font-size: 1.1rem !important;
+  }
+
+  #protokol svg {
+    width: 70%;
+  }
+
+  #protokol p {
+    font-size: 0.7rem !important;
+  }
+
+  /* End protokol */
+
+  /* Gift */
+
+  #gift img {
+    width: 15% !important;
+  }
+
+  #gift h1 {
+    font-size: 1.8rem !important;
+  }
+
+  #gift h2 {
+    font-size: 1.2rem !important;
+  }
+
+  #gift svg {
+    width: 60%;
+  }
+
+  #gift .akhirGift {
+    font-size: 2rem !important;
+  }
+
+  #gift .overlay .card h2 {
+    font-size: 1.5rem !important;
+    margin-bottom: 40px;
+  }
+
+  #gift .overlay p {
+    font-size: 1.1rem !important;
+  }
+
+  #gift .overlay .alamatPengiriman img {
+    width: 80%;
+  }
+
+  #gift .akhirGift {
+    font-size: 1.4rem !important;
+  }
+
+  /* End gift */
+
+  /* Footer */
+
+  footer h2 {
+    font-size: 0.9rem !important;
+  }
+
+  /* End footer */
+}
+
+@media screen and (max-width: 360px) {
+  /* Cover */
+
+  #cover h2 {
+    font-size: 1.4rem !important;
+  }
+
+  #cover p {
+    font-size: 1.8rem !important;
+  }
+
+  #cover h1 {
+    font-size: 3rem !important;
+  }
+
+  #cover button {
+    font-size: 1.1rem !important;
+  }
+
+  /* End cover */
+
+  /* Hero */
+
+  #hero h2 {
+    font-size: 1rem !important;
+  }
+
+  #hero h1 {
+    font-size: 2.4rem !important;
+  }
+
+  #hero hr {
+    width: 80%;
+    opacity: 1;
+  }
+
+  #hero h3 {
+    font-size: 0.9rem !important;
+  }
+
+  /* End Hero */
+
+  /* Profil */
+
+  #profil .ayat img {
+    width: 20%;
+  }
+
+  #profil .ayat p {
+    font-size: 0.9rem !important;
+  }
+
+  #profil .ayat h3 {
+    font-size: 1rem !important;
+  }
+
+  #profil hr {
+    text-align: center;
+    width: 100%;
+    opacity: 1;
+    margin-bottom: 40px;
+  }
+
+  #profil .pengantin h2 {
+    font-size: 1.4rem !important;
+  }
+
+  #profil .pengantin p {
+    font-size: 0.8rem !important;
+  }
+
+  #profil .pengantin a {
+    font-size: 1.1rem !important;
+  }
+
+  #profil .pengantin img {
+    width: 90% !important;
+  }
+
+  /* End profil */
+
+  .dua svg {
+    margin-bottom: -90px !important;
+    opacity: 1;
+  }
+
+  /* Jadwal */
+
+  #jadwal h1 {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+  }
+
+  #jadwal h3 {
+    font-size: 1.1rem !important;
+  }
+
+  #jadwal button {
+    font-size: 1rem !important;
+  }
+
+  /* End Jadwal */
+
+  /* Time */
+
+  #time svg {
+    margin-top: -90px;
+  }
+
+  #time h1 {
+    font-family: Ephesis, sans-serif;
+    font-weight: bold;
+    font-size: 2.8rem !important;
+  }
+
+  #time .countdown {
+    font-size: 0.9rem !important;
+  }
+
+  /* End time */
+
+  /* Protokol */
+
+  #protokol h1 {
+    font-size: 1.6rem !important;
+  }
+
+  #protokol h3 {
+    font-size: 1rem !important;
+  }
+
+  #protokol svg {
+    width: 75%;
+  }
+
+  #protokol p {
+    font-size: 0.6rem !important;
+  }
+
+  /* End protokol */
+
+  /* Gift */
+
+  #gift img {
+    width: 13%;
+  }
+
+  #gift h1 {
+    font-size: 1.5rem !important;
+  }
+
+  #gift h2 {
+    font-size: 1rem !important;
+  }
+
+  #gift .overlay .card .hadiah h2 {
+    font-size: 1.5rem !important;
+    margin-bottom: 30px;
+  }
+
+  #gift .overlay p {
+    font-size: 0.9rem !important;
+  }
+
+  /* End gift */
+
+  /* Footer */
+
+  footer h2 {
+    font-size: 0.8rem !important;
+  }
+
+  /* End footer */
+}

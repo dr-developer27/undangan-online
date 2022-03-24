@@ -1,0 +1,38 @@
+/* :root {
+  --hover-color: #e101ff;
+  --bg-color2: #f85b8a;
+  --text-color: #f7f0f6;
+  --bg-color: #ec396f;
+  --blue-color: #b7d2ff;
+  --blue-color2: #94bdff;
+  --blue-color3: #03a9f4;
+  --bg-color3: #fd437b;
+}
+
+#app{
+  background: var(--bg-color);
+}
+
+.page-heading h3{
+  color: var(--text-color);
+}
+
+.page-content .card{
+  background: var(--text-color);
+}
+
+.page-content .text-muted{
+  color: var(--bg-color2) !important;
+}
+
+.page-content .card h6{
+  color: var(--bg-color3);
+} */
+
+.card .bi.bi-people-fill{
+  font-size: 3rem;
+}
+.card .bi{
+  color: #435ebe;
+  font-size: 2.4rem;
+}

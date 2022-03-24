@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+:root {
+  --bgColor: #79d7f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  max-width: 567px;
+  margin: 0 auto;
+  background-color: var(--bgColor);
+}
+
+h1 {
+  font-size: 2.1rem !important;
+}
+
+h2 {
+  font-size: 1.4rem !important;
+}
+
+h3 {
+  font-size: 1.2rem !important;
+}
+
+/* Cover */
+
+#cover {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  overflow-y: hidden;
+  background-image: url(../img/ber2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 70%;
+  background-attachment: fixed;
+  z-index: 1;
+  color: #2b2b43;
+  transition: 0.5s;
+}
+
+#cover h2 {
+  font-size: 1.7rem !important;
+  font-family: Ephesis, sans-serif;
+  font-weight: bold;
+}
+
+#cover p {
+  font-size: 2rem !important;
+  font-family: Ephesis, sans-serif;
+  font-weight: bold;
+}
+
+#cover h1 {
+  font-size: 4rem !important;
+  font-family: Ephesis, sans-serif;
+  font-weight: bold;
+}
+
+#cover button {
+  font-size: 1.3rem;
+  width: 80%;
+  background-color: #2b2b43;
+  border: 4px solid var(--bgColor);
+  border-radius: 10px;
+  color: var(--bgColor);
+  font-weight: bold;
+}
+
+#cover:target {
+  transform: translateY(-100%);
+}
+
+/* End cover */
+
+/* Hero */
+
+#hero {
+  min-height: 100vh;
+  background-image: url(../img/ber2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position-y: 35%;
+  color: #2b2b43;
+  font-weight: bold;
+}
+
+#hero h2 {
+  font-size: 1.3rem !important;
+  margin-top: 5px;
+}
+
+#hero h1 {
+  font-size: 3.5rem !important;
+  font-family: Ephesis, sans-serif;
+}
+
+#hero hr {
+  border: 1px solid #2b2b43 !important;
+  opacity: 1;
+  width: 40%;
+}
+
+.textHero {
+  padding-left: 10px !important;
+}
+
+/* End hero */
+
+.satu svg {
+  margin-top: -100px;
+}
+
+/* Profil */
+
+#profil .ayat img {
+  margin-bottom: 30px;
+  width: 15%;
+}
+
+#profil .ayat p {
+  font-size: 1.1rem !important;
+  margin-bottom: 30px;
+}
+
+#profil .ayat h3 {
+  font-size: 1.2rem !important;
+}
+
+#profil .ayat hr {
+  width: 80%;
+  color: inherit;
+  background-color: currentColor;
+  margin: 0 auto;
+  border: 0;
+  opacity: 1;
+}
+
+#profil .pengantin {
+  overflow: hidden;
+}
+
+#profil .pengantin h2 {
+  font-size: 1.3rem !important;
+}
+
+#profil .pengantin p {
+  font-size: 1rem !important;
+}
+
+#profil .pengantin a {
+  font-size: 1.5rem !important;
+}
+
+#profil .pengantin img {
+  width: 90%;
+}
+
+/* End profil */
+
+.dua svg {
+  margin-bottom: -50px !important;
+  opacity: 1;
+}
+
+/* Jadwal */
+
+#jadwal {
+  background-image: url(../img/pngtree-pink-vector-beautiful-flower-wedding-photography-background-material-image_148310.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 40px;
+  color: rgb(0, 0, 36);
+}
+
+#jadwal .overlay {
+  background: rgb(255, 255, 255, 0.4);
+  margin-top: -50px !important;
+  padding-top: 50px;
+}
+
+#jadwal h1 {
+  z-index: 1;
+  font-size: 3rem !important;
+  font-weight: bold;
+  font-family: Ephesis, sans-serif;
+}
+
+#jadwal h3 {
+  font-size: 1rem !important;
+}
+
+#jadwal .alamat {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#jadwal a {
+  display: inline-block;
+  padding-top: 10px !important;
+}
+
+/* End jadwal */
+
+/* Timer */
+
+#time {
+  background-image: linear-gradient(#fff, var(--bgColor));
+}
+
+#time svg {
+  margin-top: -100px;
+  opacity: 1;
+}
+
+#time h1 {
+  font-size: 2.5rem !important;
+  font-family: Ephesis, sans-serif;
+  font-weight: bold;
+}
+
+#time .countdown {
+  font-size: 0.7rem !important;
+}
+
+.countdown div {
+  position: relative;
+  padding: 0 0.12em;
+  line-height: 2em;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+.countdown div::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: black;
+  font-size: 0.3em;
+  line-height: 13em;
+  font-weight: 500;
+}
+
+.countdown #hari::before {
+  content: "Day";
+}
+.countdown #jam::before {
+  content: "Hrs";
+}
+.countdown #menit::before {
+  content: "Min";
+}
+.countdown #detik::before {
+  content: "Sec";
+}
+
+/* End timer */
+
+/* Protokol */
+
+#protokol {
+  background-image: linear-gradient(var(--bgColor), #fff);
+}
+
+#protokol h1 {
+  font-size: 1.5rem !important;
+}
+
+#protokol h3 {
+  font-size: 1rem !important;
+}
+
+#protokol svg {
+  width: 50%;
+}
+
+#protokol p {
+  font-size: 0.7rem !important;
+}
+
+/* End protokol */
+
+/* Gift */
+/* 
+#gift {
+  background-image: linear-gradient(#fff, var(--bgColor), #fff);
+}
+
+#gift img {
+  width: 7% !important;
+}
+
+#gift h1 {
+  margin-bottom: -8px !important;
+  padding-bottom: 0.7em !important;
+  font-size: 2.6rem !important;
+}
+
+#gift h2 {
+  font-size: 1.5rem !important;
+}
+
+#gift svg {
+  width: 30%;
+}
+
+#gift .overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  transition: 0.8s;
+  text-align: center;
+}
+
+#gift .overlay:target {
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  background: rgba(0, 0, 0, 0.767);
+}
+
+#gift .card {
+  background: #ffff;
+  border-radius: 20px;
+  height: 90vh;
+  transform: translateY(2%);
+  font-size: 1em;
+}
+
+#gift .card a {
+  text-decoration: none;
+  border: 1px solid rgb(102, 98, 98);
+  padding: 0 10px;
+  border-radius: 50%;
+  background-color: #ebf5fc;
+  margin-left: -15px;
+  color: rgb(102, 98, 98);
+}
+
+#gift .card .alamatPengiriman {
+  background: #ebf5fc;
+  box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 255.5), inset 6px 6px 20px rgba(255, 255, 255, 0.05);
+}
+
+#gift .overlay .card a {
+  z-index: 1;
+}
+
+#gift .overlay .card .hadiah h2 {
+  font-size: 2rem !important;
+  margin-bottom: 30px;
+}
+
+#gift .overlay p {
+  font-size: 1.4rem !important;
+}
+
+#gift .overlay .alamatPengiriman img {
+  width: 20% !important;
+} */
+
+/* End gift */
+
+/* Footer */
+
+footer {
+  background-color: var(--bgColor);
+}
+
+footer h2 {
+  font-size: .8rem !important;
+}
+
+/* End footer */

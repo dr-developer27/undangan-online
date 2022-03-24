@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Undangan - D Wedding Admin Dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="sidebar" class="active">
+        <div class="sidebar-wrapper active">
+          <div class="sidebar-header">
+            <div class="d-flex justify-content-between">
+              <div class="logo">
+                <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" srcset="" /></a>
+              </div>
+              <div class="toggler">
+                <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-menu">
+            <ul class="menu">
+              <li class="sidebar-title">Menu</li>
+
+              <li class="sidebar-item">
+                <a href="index.html" class="sidebar-link">
+                  <i class="bi bi-grid-fill"></i>
+                  <span>Dashboard</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item active">
+                <a href="#" class="sidebar-link">
+                  <i class="bi bi-file-earmark-text-fill"></i>
+                  <span>Data Undanganku</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item">
+                <a href="undanganku.html" class="sidebar-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-heart-fill" viewBox="0 0 16 16">
+                    <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5ZM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+                  </svg>
+                  <span>Undanganku</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                  <i class="bi bi-chat-left-text-fill"></i>
+                  <span>Komentar</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                  <i class="bi bi-cash"></i>
+                  <span>Donate</span>
+                </a>
+              </li>
+
+              <li class="sidebar-title">Akun</li>
+
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                  <i class="bi bi-person-circle"></i>
+                  <span>Profile</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                  <i class="bi bi-shield-lock"></i>
+                  <span>Ubah Password</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item">
+                <a href="../index.html" class="sidebar-link">
+                  <i class="bi bi-box-arrow-left"></i>
+                  <span>Logout</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+        </div>
+      </div>
+      <div id="main">
+        <header class="mb-3">
+          <a href="#" class="burger-btn d-block d-xl-none">
+            <i class="bi bi-justify fs-3"></i>
+          </a>
+        </header>
+
+        <div class="page-content">
+          <section class="row">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-12">
+                  <form class="row g-3 ">
+                    <h5>Data Pengantin Pria</h5>
+                    <div class="col-md-6">
+                      <label for="namaPria" class="form-label">Nama</label>
+                      <input type="text" class="form-control" id="namaPria" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="igPria" class="form-label">Instagram</label>
+                      <div class="input-group">
+                        <div class="input-group-text">@</div>
+                        <input type="text" class="form-control" id="igPria" placeholder="pengantinpria"/>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="putraKe" class="form-label">Putra</label>
+                      <input class="form-control" list="anakKe" id="putraKe" placeholder="Pertama">
+                      <datalist id="anakKe">
+                        <option value="Pertama">
+                        <option value="Kedua">
+                        <option value="Ketiga">
+                        <option value="Keempat">
+                        <option value="Kelima">
+                      </datalist>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="AyahPria" class="form-label">Ayah</label>
+                      <input type="text" class="form-control" id="AyahPria" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="ibuPria" class="form-label">Ibu</label>
+                      <input type="text" class="form-control" id="ibuPria" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="fotoPria" class="form-label">Foto</label>
+                      <input class="form-control" type="file" id="fotoPria">
+                    </div>
+                    
+                    <h5 class="mt-5">Data Pengantin Wanita</h5>
+                    <div class="col-md-6">
+                      <label for="namaWanita" class="form-label">Nama</label>
+                      <input type="text" class="form-control" id="namaWanita" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="igWanita" class="form-label">Instagram</label>
+                      <div class="input-group">
+                        <div class="input-group-text">@</div>
+                        <input type="text" class="form-control" id="igWanita" placeholder="pengantinwanita" />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="putriKe" class="form-label">Putri</label>
+                      <input class="form-control" list="anakKe" id="putriKe" placeholder="Pertama">
+                      <!-- <datalist id="anakKe">
+                        <option value="Pertama">
+                        <option value="Kedua">
+                        <option value="Ketiga">
+                        <option value="Keempat">
+                        <option value="Kelima">
+                      </datalist> -->
+                    </div>
+                    <div class="col-md-6">
+                      <label for="AyahWanita" class="form-label">Ayah</label>
+                      <input type="text" class="form-control" id="AyahWanita" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="ibuWanita" class="form-label">Ibu</label>
+                      <input type="text" class="form-control" id="ibuWanita" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="fotoWanita" class="form-label">Foto</label>
+                      <input class="form-control" type="file" id="fotoWanita">
+                    </div>
+                    
+                    <h5 class="mt-5">Acara Pernikahan</h5>
+                    <div class="col-md-6">
+                      <label for="tanggalAcara" class="form-label">Hari, tanggal</label>
+                      <input type="date" class="form-control" id="tanggalAcara" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="jamAcara" class="form-label">Jam</label>
+                      <input type="text" class="form-control" id="jamAcara" placeholder="12:00 - Selesai"/>
+                    </div>
+                    <div class="col-12">
+                      <label for="alamatAcara" class="form-label">Alamat acara pernikahan</label>
+                      <input type="text" class="form-control" id="alamatAcara" />
+                    </div>
+
+                    <h5 class="mt-5">Akad Nikah</h5>
+                    <div class="col-md-6">
+                      <label for="tanggalAkad" class="form-label">Hari, tanggal</label>
+                      <input type="date" class="form-control" id="tanggalAkad" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="jamAkad" class="form-label">Jam</label>
+                      <input type="text" class="form-control" id="jamAkad" placeholder="12:00 - Selesai"/>
+                    </div>
+                    <div class="col-12">
+                      <label for="alamatAkad" class="form-label">Alamat Akad</label>
+                      <input type="text" class="form-control" id="alamatAkad" />
+                    </div>
+
+                    <h5 class="mt-5">Resepsi</h5>
+                    <div class="col-md-6">
+                      <label for="tanggalResepsi" class="form-label">Hari, tanggal</label>
+                      <input type="date" class="form-control" id="tanggalResepsi" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="jamResepsi" class="form-label">Jam</label>
+                      <input type="text" class="form-control" id="jamResepsi" placeholder="12:00 - Selesai"/>
+                    </div>
+                    <div class="col-12">
+                      <label for="alamatResepsi" class="form-label">Alamat Resepsi</label>
+                      <input type="text" class="form-control" id="alamatResepsi" />
+                    </div>
+
+                    <h5 class="mt-5">Unduh Mantu</h5>
+                    <div class="col-md-6">
+                      <label for="tanggalUnduhMantu" class="form-label">Hari, tanggal</label>
+                      <input type="date" class="form-control" id="tanggalUnduhMantu" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="jamUnduhMantu" class="form-label">Jam</label>
+                      <input type="text" class="form-control" id="jamUnduhMantu" placeholder="12:00 - selesai"/>
+                    </div>
+                    <div class="col-12">
+                      <label for="alamatUnduhMantu" class="form-label">Alamat Unduh Mantu</label>
+                      <input type="text" class="form-control" id="alamatResepsiUnduhMantu" />
+                    </div>
+
+                    <h5 class="mt-5">Galery Foto</h5>
+                    <div class="col-md-6">
+                      <input class="form-control" type="file" id="fotoWanita">
+                    </div>
+                    <div class="col-md-6">
+                      <input class="form-control" type="file" id="fotoWanita">
+                    </div>
+                    <div class="col-md-6">
+                      <input class="form-control" type="file" id="fotoWanita">
+                    </div>
+                    <div class="col-md-6">
+                      <input class="form-control" type="file" id="fotoWanita">
+                    </div>
+
+                    <div class="d-grid gap-2 col-12 col-md-6 mx-auto mt-5">
+                      <button type="submit" class="btn btn-primary">Simpan</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+      </div>
+    </div>
+    <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/vendors/apexcharts/apexcharts.js"></script>
+    <script src="assets/js/pages/dashboard.js"></script>
+
+    <script src="assets/js/mazer.js"></script>
+  </body>
+</html>
