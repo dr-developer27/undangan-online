@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komentar - D Wedding Admin Dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/komentar.css" />
+
+    <!-- Emoji -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css" />
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="sidebar" class="active">
+        <div class="sidebar-wrapper active">
+          <div class="sidebar-header">
+            <div class="d-flex justify-content-between">
+              <div class="logo">
+                <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" srcset="" /></a>
+              </div>
+              <div class="toggler">
+                <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-menu">
+            <ul class="menu">
+              <li class="sidebar-title">Menu</li>
+
+              <li class="sidebar-item">
+                <a href="index.html" class="sidebar-link">
+                  <i class="bi bi-grid-fill"></i>
+                  <span>Dashboard</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item">
+                <a href="data_undanganku.html" class="sidebar-link">
+                  <i class="bi bi-file-earmark-text-fill"></i>
+                  <span>Data Undanganku</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item">
+                <a href="undanganku.html" class="sidebar-link">
+                  <i class="bi bi-calendar-heart-fill"></i>
+                  <span>Undanganku</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item active">
+                <a href="#" class="sidebar-link">
+                  <i class="bi bi-chat-left-text-fill"></i>
+                  <span>Komentar</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item">
+                <a href="donasi.html" class="sidebar-link">
+                  <i class="bi bi-cash"></i>
+                  <span>Donate</span>
+                </a>
+              </li>
+
+              <li class="sidebar-title">Akun</li>
+
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                  <i class="bi bi-shield-lock"></i>
+                  <span>Profile</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                  <i class="bi bi-shield-lock"></i>
+                  <span>Ubah Password</span>
+                </a>
+              </li>
+
+              <li class="sidebar-item">
+                <a href="../index.html" class="sidebar-link">
+                  <i class="bi bi-box-arrow-left"></i>
+                  <span>Logout</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+        </div>
+      </div>
+      <div id="main">
+        <header class="mb-3">
+          <a href="#" class="burger-btn d-block d-xl-none">
+            <i class="bi bi-justify fs-3"></i>
+          </a>
+        </header>
+
+        <div class="page-heading">
+          <h3>Komentar</h3>
+        </div>
+
+        <div class="commentBox">
+          <div class="comment frnd-comment">
+            <p>Siganteng <br /><span>Hallo</span><br /><span>12.15</span></p>
+          </div>
+          <div class="comment my-comment">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ad. Nostrum, modi? Lorem ipsum dolor sit amet.<br /><span>12.15</span></p>
+          </div>
+          <div class="comment frnd-comment">
+            <p>Siganteng<br /><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolor voluptatum! Dolorem commodi explicabo,</span><br /><span>12.15</span></p>
+          </div>
+          <div class="comment frnd-comment">
+            <p>Siganteng<br /><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolor voluptatum! Dolorem commodi explicabo,</span><br /><span>12.15</span></p>
+          </div>
+          <div class="comment frnd-comment">
+            <div class="first-comment">
+              <p>Siganteng<br /><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, dolor voluptatum! Dolorem commodi explicabo,</span><br /><span>12.15</span></p>
+            </div>
+          </div>
+          <div id="emoji" class="chatbox-input">
+            <i class="bi bi-emoji-laughing"></i>
+            <!-- <button id="emoji"></button> -->
+            <input type="text" name="myChat" id="myChat" placeholder="Type a message" />
+            <i class="bi bi-send-fill"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/vendors/apexcharts/apexcharts.js"></script>
+    <script src="assets/js/pages/dashboard.js"></script>
+
+    <script src="assets/js/mazer.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+  </body>
+</html>

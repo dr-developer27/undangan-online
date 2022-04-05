@@ -23,7 +23,6 @@ body {
   margin: 0 auto;
 }
 
-
 /* Navbar */
 
 nav {
@@ -38,7 +37,6 @@ nav {
   padding: 30px 100px;
   z-index: 1001;
   max-width: 1380px;
-  
 }
 
 nav.sticky {
@@ -90,8 +88,6 @@ nav ul li a.active {
   color: var(--blue-color);
   font-weight: 700;
 }
-
-
 
 nav ul li:nth-child(4) a {
   color: var(--bg-color2);
@@ -345,7 +341,7 @@ nav ul li a:hover {
   font-weight: 600;
 }
 
-.tutorial .textTutorial .langkahBox a:hover{
+.tutorial .textTutorial .langkahBox a:hover {
   text-decoration: underline;
 }
 
@@ -451,100 +447,100 @@ nav ul li a:hover {
 }
 
 /* Faq */
- .faq {
-   display: flex;
-   position: relative;
-   flex-direction: column;
-   background: var(--bg-color);
-   color: var(--text-color);
-   padding: 30px 10px;
- }
+.faq {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 30px 10px;
+}
 
- .faq .faqJudul{
-   text-align: center;
-   font-weight: 600;
-   font-size: 1.5rem;
-   padding: 20px 0;
- }
+.faq .faqJudul {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
 
- .faq .faqBox{
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   padding: 20px 100px;
- }
+.faq .faqBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 100px;
+}
 
- .faq .faqBox .faqCard{
-   width: 50%;
-   padding: 10px 10px;
- }
+.faq .faqBox .faqCard {
+  width: 50%;
+  padding: 10px 10px;
+}
 
- .faq .faqBox .faqCard h3{
-   margin: 15px 0;
-   font-size: 1.5rem;
-   letter-spacing: 1px;
- }
+.faq .faqBox .faqCard h3 {
+  margin: 15px 0;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
 
- .faq .faqBox .faqCard p{
-   font-size: .9rem;
-   line-height: 25px;
- }
+.faq .faqBox .faqCard p {
+  font-size: 0.9rem;
+  line-height: 25px;
+}
 
- /* Kontak */
+/* Kontak */
 
- .kontak{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   padding: 50px 100px;
-   background: var(--bg-color2);
-   color: var(--text-color);
- }
+.kontak {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  background: var(--bg-color2);
+  color: var(--text-color);
+}
 
- .kontak .kontakJudul{
-   letter-spacing: 1px;
-   text-align: center;
- }
+.kontak .kontakJudul {
+  letter-spacing: 1px;
+  text-align: center;
+}
 
- .kontak .kontakIsi{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   margin: 20px 0;
- }
- 
- .kontak .kontakIsi .infoKontak a{
-   display: flex;
-   align-items: center;
-   text-decoration: none;
-   color: var(--text-color);
-   flex-wrap: wrap;
-   margin: 20px 30px;
- }
+.kontak .kontakIsi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
 
- .kontak .kontakIsi .infoKontak .kontakImg{
-   display: flex;
-   justify-content: center;
- }
+.kontak .kontakIsi .infoKontak a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-color);
+  flex-wrap: wrap;
+  margin: 20px 30px;
+}
 
- .kontak .kontakIsi .infoKontak a .kontakImg Img{
-   height: 30px;
-   background: var(--text-color);
-   border-radius: 5px;
- }
+.kontak .kontakIsi .infoKontak .kontakImg {
+  display: flex;
+  justify-content: center;
+}
 
- .kontak .kontakIsi .infoKontak a .kontakTeks{
-   margin-left: 10px;
- }
+.kontak .kontakIsi .infoKontak a .kontakImg Img {
+  height: 30px;
+  background: var(--text-color);
+  border-radius: 5px;
+}
 
- footer{
-   background: var(--text-color);
-   color: var(--bg-color3);
-   width: 100%;
-   padding: 10px 0;
-   text-align: center;
-   font-weight: 600;
+.kontak .kontakIsi .infoKontak a .kontakTeks {
+  margin-left: 10px;
+}
 
-   letter-spacing: 1px;
-   font-size: .9em;
- }
+footer {
+  background: var(--text-color);
+  color: var(--bg-color3);
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 600;
+
+  letter-spacing: 1px;
+  font-size: 0.9em;
+}

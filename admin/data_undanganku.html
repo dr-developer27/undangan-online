@@ -9,8 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
 
+
     <!-- Bootstrap icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
     <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css" />
     <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css" />
@@ -52,22 +53,20 @@
 
               <li class="sidebar-item">
                 <a href="undanganku.html" class="sidebar-link">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-heart-fill" viewBox="0 0 16 16">
-                    <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5ZM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
-                  </svg>
+                  <i class="bi bi-calendar-heart-fill"></i>
                   <span>Undanganku</span>
                 </a>
               </li>
 
               <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
+                <a href="komentar.html" class="sidebar-link">
                   <i class="bi bi-chat-left-text-fill"></i>
                   <span>Komentar</span>
                 </a>
               </li>
 
               <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
+                <a href="donasi.html" class="sidebar-link">
                   <i class="bi bi-cash"></i>
                   <span>Donate</span>
                 </a>
@@ -112,7 +111,7 @@
             <div class="col-12">
               <div class="row">
                 <div class="col-12">
-                  <form class="row g-3 ">
+                  <form class="row g-3">
                     <h5>Data Pengantin Pria</h5>
                     <div class="col-md-6">
                       <label for="namaPria" class="form-label">Nama</label>
@@ -122,18 +121,18 @@
                       <label for="igPria" class="form-label">Instagram</label>
                       <div class="input-group">
                         <div class="input-group-text">@</div>
-                        <input type="text" class="form-control" id="igPria" placeholder="pengantinpria"/>
+                        <input type="text" class="form-control" id="igPria" placeholder="pengantinpria" />
                       </div>
                     </div>
                     <div class="col-md-6">
                       <label for="putraKe" class="form-label">Putra</label>
-                      <input class="form-control" list="anakKe" id="putraKe" placeholder="Pertama">
+                      <input class="form-control" list="anakKe" id="putraKe" placeholder="Pertama" />
                       <datalist id="anakKe">
-                        <option value="Pertama">
-                        <option value="Kedua">
-                        <option value="Ketiga">
-                        <option value="Keempat">
-                        <option value="Kelima">
+                        <option value="Pertama"></option>
+                        <option value="Kedua"></option>
+                        <option value="Ketiga"></option>
+                        <option value="Keempat"></option>
+                        <option value="Kelima"></option>
                       </datalist>
                     </div>
                     <div class="col-md-6">
@@ -146,9 +145,9 @@
                     </div>
                     <div class="col-md-6">
                       <label for="fotoPria" class="form-label">Foto</label>
-                      <input class="form-control" type="file" id="fotoPria">
+                      <input class="form-control" type="file" id="fotoPria" />
                     </div>
-                    
+
                     <h5 class="mt-5">Data Pengantin Wanita</h5>
                     <div class="col-md-6">
                       <label for="namaWanita" class="form-label">Nama</label>
@@ -163,7 +162,7 @@
                     </div>
                     <div class="col-md-6">
                       <label for="putriKe" class="form-label">Putri</label>
-                      <input class="form-control" list="anakKe" id="putriKe" placeholder="Pertama">
+                      <input class="form-control" list="anakKe" id="putriKe" placeholder="Pertama" />
                       <!-- <datalist id="anakKe">
                         <option value="Pertama">
                         <option value="Kedua">
@@ -182,9 +181,9 @@
                     </div>
                     <div class="col-md-6">
                       <label for="fotoWanita" class="form-label">Foto</label>
-                      <input class="form-control" type="file" id="fotoWanita">
+                      <input class="form-control" type="file" id="fotoWanita" />
                     </div>
-                    
+
                     <h5 class="mt-5">Acara Pernikahan</h5>
                     <div class="col-md-6">
                       <label for="tanggalAcara" class="form-label">Hari, tanggal</label>
@@ -192,7 +191,7 @@
                     </div>
                     <div class="col-md-6">
                       <label for="jamAcara" class="form-label">Jam</label>
-                      <input type="text" class="form-control" id="jamAcara" placeholder="12:00 - Selesai"/>
+                      <input type="text" class="form-control" id="jamAcara" placeholder="12:00 - Selesai" />
                     </div>
                     <div class="col-12">
                       <label for="alamatAcara" class="form-label">Alamat acara pernikahan</label>
@@ -206,7 +205,7 @@
                     </div>
                     <div class="col-md-6">
                       <label for="jamAkad" class="form-label">Jam</label>
-                      <input type="text" class="form-control" id="jamAkad" placeholder="12:00 - Selesai"/>
+                      <input type="text" class="form-control" id="jamAkad" placeholder="12:00 - Selesai" />
                     </div>
                     <div class="col-12">
                       <label for="alamatAkad" class="form-label">Alamat Akad</label>
@@ -220,7 +219,7 @@
                     </div>
                     <div class="col-md-6">
                       <label for="jamResepsi" class="form-label">Jam</label>
-                      <input type="text" class="form-control" id="jamResepsi" placeholder="12:00 - Selesai"/>
+                      <input type="text" class="form-control" id="jamResepsi" placeholder="12:00 - Selesai" />
                     </div>
                     <div class="col-12">
                       <label for="alamatResepsi" class="form-label">Alamat Resepsi</label>
@@ -234,7 +233,7 @@
                     </div>
                     <div class="col-md-6">
                       <label for="jamUnduhMantu" class="form-label">Jam</label>
-                      <input type="text" class="form-control" id="jamUnduhMantu" placeholder="12:00 - selesai"/>
+                      <input type="text" class="form-control" id="jamUnduhMantu" placeholder="12:00 - selesai" />
                     </div>
                     <div class="col-12">
                       <label for="alamatUnduhMantu" class="form-label">Alamat Unduh Mantu</label>
@@ -243,20 +242,20 @@
 
                     <h5 class="mt-5">Galery Foto</h5>
                     <div class="col-md-6">
-                      <input class="form-control" type="file" id="fotoWanita">
+                      <input class="form-control" type="file" id="fotoWanita" />
                     </div>
                     <div class="col-md-6">
-                      <input class="form-control" type="file" id="fotoWanita">
+                      <input class="form-control" type="file" id="fotoWanita" />
                     </div>
                     <div class="col-md-6">
-                      <input class="form-control" type="file" id="fotoWanita">
+                      <input class="form-control" type="file" id="fotoWanita" />
                     </div>
                     <div class="col-md-6">
-                      <input class="form-control" type="file" id="fotoWanita">
+                      <input class="form-control" type="file" id="fotoWanita" />
                     </div>
 
                     <div class="d-grid gap-2 col-12 col-md-6 mx-auto mt-5">
-                      <button type="submit" class="btn btn-primary">Simpan</button>
+                      <button type="submit" class="btn btn-mycolor-white">Simpan</button>
                     </div>
                   </form>
                 </div>
@@ -264,7 +263,6 @@
             </div>
           </section>
         </div>
-
       </div>
     </div>
     <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>

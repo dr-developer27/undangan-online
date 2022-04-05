@@ -29,10 +29,15 @@
   color: var(--bg-color3);
 } */
 
-.card .bi.bi-people-fill{
+.card .bi.bi-people-fill {
   font-size: 3rem;
 }
-.card .bi{
-  color: #435ebe;
+.card .bi {
+  color: #fd437b;
   font-size: 2.4rem;
+}
+
+/* Latest komen */
+.card-body .table-responsive table{
+  color: #fd437b;
 }

@@ -14,7 +14,7 @@
 }
 
 .containerLr.active{
-  background:#03a9f4;
+  background: var(--bg-color2);
 }
 
 .lr .login{
@@ -57,7 +57,7 @@
 }
 
 .lr .login .box .signinBtn{
-  color: #03a9f4;
+  color: var(--bg-color2);
 }
 
 .lr .formBx{
@@ -175,7 +175,7 @@
 
 .formBx .form form .formCheckbox a{
   text-decoration: none;
-  color: #03a9f4;
+  color: var(--bg-color2);
   font-weight: 600;
   letter-spacing: .8px;
 }
@@ -194,15 +194,16 @@
 }
 
 .formBx.active .signupForm h3{
-  color: var(--blue-color3);
+  color: var(--bg-color2);
 }
 
 .formBx.active .signupForm input{
-  border: 1px var(--blue-color3) solid;
+  border: 1px var(--bg-color2) solid;
 }
 
+
 .formBx.active .signupForm input[type="submit"]{
-  background: #03a9f4;
+  background: var(--bg-color2);
 }
 
 .formBx .form form a{
@@ -262,7 +263,7 @@
   line-height: 30px;
   border-radius: 50%;
   color: var(--text-color);
-  background: #03a9f4;
+  background: var(--bg-color2);
 }
 
 .overlay .overlayBox .overlayIsi{
@@ -285,7 +286,7 @@
 
 .overlay .overlayBox .overlayBtn input[type="button"]{
   text-decoration: none;
-  background: #03a9f4;
+  background: var(--bg-color2);
   color: var(--text-color);
   font-size: 1.1em;
   width: 250px;

@@ -1,0 +1,21 @@
+.donasi-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.donasi-box .donasi a{
+  display: inline-block;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.donasi-box .donasi a img:first-child{
+  width: 200px;
+}
